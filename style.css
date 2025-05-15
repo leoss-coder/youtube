@@ -1,0 +1,87 @@
+html{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    background-color: #f7f7f7;
+    grid-gap: 16px;
+    max-width: 900px;
+    height: 415px;
+    padding: 35px;
+}
+
+.video{
+    background-color: #c4c4c4;
+    grid-area: 1 / 1 / 3 / 2;
+    width: 543px;
+    height: 217px;
+    color: #c4c4c4;
+    
+}
+
+.propaganda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    grid-area: 1 / 2 / 2 / 3;
+    width: 270px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 11px;
+
+}
+
+.informacoes{
+    grid-area: 3 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 543px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lista-videos{
+    grid-area: 2 / 2 / 5 / 3 ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.video-lateral{
+    display: flex;
+    gap: 5px;
+}
+
+.subtitulo{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.texto{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.retangulo{
+    background-color: #c4c4c4;
+    width: 101px;
+    height: 71px;
+    color: #c4c4c4;
+}
+
+.titulo-video-lateral{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 11px;
+}
